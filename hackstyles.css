@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color:rgb(113, 149, 222);
+
+}
+
+form{
+background-color: rgb(217, 231, 215);
+padding: 50px;
+border-radius: 50px;
+}
+
+
+label{
+color:rgb(113, 149, 222);
+display:block;
+border-bottom: 1px solid rgb(113, 149, 222);
+}
+
+input{
+border: 0;
+padding:10px;
+}
+
+button[type=submit]{
+    background-color: firebrick;
+    border-radius: 10px;
+    color:white;
+    font-weight:bold;
+    padding: 10px 25px;
+    border:0;
+}
+
+
+
+button[type=submit]:hover{
+    background-color: rgb(4, 159, 255);
+    cursor:pointer;
+}

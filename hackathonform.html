@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO MY HACKATHON</title>
+    <link href="hackstyles.css" rel="stylesheet" />
+</head>
+<body>
+    <form>
+        <h1>WELCOME TO MY HACKATHON!!!!</h1>
+
+        <label>Your Name: </label><br>
+        <input type="text" placeholder="Enter your name..."/><br><br>
+
+
+        <label>Email: </label><br>
+        <input type="email" required /><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" pattern="[a-zA-Z0-9]{8,16}" /><br><br>
+
+
+        <small>Remember my password?</small>
+        <input type="checkbox" /><br><br>
+
+        <label>Which days are you attending the hackathon?</label><br>
+        <input type="radio" name="DaysAttending" value="friday" /> Friday <br>
+        <input type="radio" name="DaysAttending" value="saturday" /> Saturday <br>
+        <input type="radio" name="DaysAttending" value="sunday" /> Sunday <br>
+        
+
+        <label>Which date/time did you want to attend?</label><br>
+        <input type="datetime-local" /><br><br> 
+
+        <label>Which country hackathon are you attending?</label>
+        <select>
+            <option value="germany">Germany</option>
+            <option value="canada">Canada</option>
+            <option value="bermuda">Bermuda</option>
+        </select><br>
+        <br><br>
+        <button type="submit">Submit Form</button>
+    </form>
+</body>
+</html>
